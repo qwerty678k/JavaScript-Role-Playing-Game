@@ -1,7 +1,7 @@
 PROJECT TITLE: DRAGON REPELLER RPG
 
 OVERVIEW
-Dragon Repeller is an interactive web application that places the user in a procedurally generated combat environment. Players must navigate a fictional economy, manage scarce resources (Gold, Health), and strategically upgrade their inventory to defeat a Dragon boss.
+Dragon Repeller is an interactive web application from Codecademy.com that places the user in a procedurally generated combat environment. Players must navigate a fictional economy, manage scarce resources (Gold, Health), and strategically upgrade their inventory to defeat a Dragon boss.
 
 Unlike simple static webpages, this project functions as a "Single Page Application" (SPA). It relies on a custom-built engine to handle state transitions without page reloads, utilizing the Document Object Model (DOM) to render real-time updates based on user actions. The architecture prioritizes a data-driven approach, separating the game content (locations, dialogue) from the core logic engine, ensuring scalability and cleaner code structure.
 
@@ -98,3 +98,4 @@ Persistence: Implementing localStorage to save the inventory and gold variables,
 Audio: Adding the Web Audio API to trigger sound effects on button clicks and combat events.
 
 Refactoring: Converting the global variable state into a GameState class to better encapsulate logic and prevent namespace pollution.
+
